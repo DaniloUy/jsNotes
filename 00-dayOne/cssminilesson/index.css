@@ -1,0 +1,22 @@
+.purple {
+    color: green;
+}
+#red {
+    color: yellow;
+}
+.box {
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    margin: 50px; 
+    border: 10px solid black;
+.btn {
+        background-color: pink;
+        padding: 10px;
+        margin: 10px; 
+        border: 1px solid black;        
+}
+#green {
+        background-color: black;
+        color: green;

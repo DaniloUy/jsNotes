@@ -1,0 +1,52 @@
+
+/* rule-set #1: Everything within a css class will have a lightgray background. */ 
+.div-one {
+    position: relative;
+    width: 700px;
+    height: 300px;
+    border: 1px solid;    
+    text-align: center;
+}
+
+.div-two {
+    position: absolute;
+    left: auto;
+    width: 200px;
+    height: 200px;
+    border: 1px solid;    
+}
+
+.div-three {
+    position: absolute;
+    left: 250px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid;    
+}
+
+.div-four {
+    position: absolute;
+    left: 500px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid;    
+}
+
+
+h1 {
+    color: lightgreen;
+    text-align: center:    
+}
+
+h3 {
+    color:blue;
+    font-weight: 1;
+}
+
+p {
+    color: red;
+}
+
+
+
+
