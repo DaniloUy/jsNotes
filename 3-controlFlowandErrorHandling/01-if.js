@@ -13,3 +13,14 @@ if (weather < 70) {
 } else {
     console.log('no jacket necessary!');
 };       
+
+
+
+let FB = 18;
+if (FB % 3 == 0) {
+   console.log("Buzz");
+}
+
+
+
+

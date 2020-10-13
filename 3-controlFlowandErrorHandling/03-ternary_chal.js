@@ -23,6 +23,15 @@ switch (true) {
 }
 
 
+let FB = 7;
+(FB % 3 == 0) && (FB % 5 == 0) ? console.log("FizzBuzz")
+: (FB % 5 == 0) ? console.log("Buzz")
+: (FB % 3 == 0) ? console.log("Fizz")
+: console.log("FB not divisible by 3 or 5")
+ 
+
+
+
 
 
 for (i = 0; i < 10; i++) {
@@ -65,6 +74,23 @@ for (fruit of fruit) {
  }
  console.log(sum);
   
+
+
+let FB1 = 15;
+switch (true) {
+    case (FB1 % 3 == 0) && (FB1 % 5 == 0):
+        console.log("FizzBuzz")
+        break;
+    case (FB1 % 5 == 0): 
+        console.log("Buzz")
+        break;
+    case (FB1 % 3 == 0):
+        console.log("Fizz")
+        break;
+    default:
+        console.log("FB1 no divisible by 3 or 5");
+}
+
 
 
 

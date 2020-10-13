@@ -72,8 +72,17 @@ if (name2[0] == name2[0].toUpperCase()) {
 let officeCharacter = "Pam";
 console.log('Sorry $[officeCharacter]');
 
-
-
+let FB = 15;
+// if ((FB % 3 == 0) || (FB % 5 == 0)) {   using double pipe AND works too
+if (FB % 3 == 0 && FB % 5 == 0) {    
+    console.log("FB divisible by 3 and 5");
+  } else if (FB % 5 == 0) {  
+    console.log("FB divisible by 5");
+  } else if (FB % 3 == 0) {
+    console.log("FB divisible by 3");  
+  } else {    
+    console.log("FB not divisible by 3 or 5");
+  }
 
  
   
